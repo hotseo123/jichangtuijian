@@ -56,7 +56,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2        # 官方维护
         with:
-          version: 8                       # 写最新 LTS 或项目需要的版本   
+          version: 9                       # 写最新 LTS 或项目需要的版本   
           
       - name: Setup Node
         uses: actions/setup-node@v4
