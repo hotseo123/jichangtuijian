@@ -7,7 +7,7 @@ import { Home, BookMarked, FileText, Info } from "lucide-react"
 
 const menuItems = [
   { name: "首页", href: "/", icon: Home },
-  { name: "优秀网站合集", href: "/collections", icon: BookMarked },
+  { name: "机场推荐", href: "/collections", icon: BookMarked },
   { name: "更新日志", href: "/changelog", icon: FileText },
   { name: "关于", href: "/about", icon: Info },
 ]

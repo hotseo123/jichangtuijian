@@ -1,214 +1,247 @@
 {
-  "sites": [
-  {
-    "id": "yizhihongxing",
-    "name": "一枝红杏加速器",
-    "description": "运营超过10年的老牌机场，专线节点多，稳定性和口碑都很强",
-    "icon": "https://placeholder.svg?height=48&width=48&query=一枝红杏加速器+logo",
-    "url": "https://order.yizhihongxing.club",
-    "category": "vpn-services",
-    "tags": ["Shadowsocks", "Trojan", "老牌机场"],
-    "promoCode": "11meigui",
-    "discount": "10% OFF",
-    "promoDescription": "全场9折优惠码，长期有效",
-    "promoExpiry": "长期有效",
-    "status": "normal",
-    "contact": {
-      "email": "",
-      "telegram": ""
-    },
-    "screenshot": "https://placeholder.svg?height=300&width=500&query=一枝红杏加速器+dashboard",
-    "lastActive": "2026-01",
-    "featured": true
-  },
-  {
-    "id": "naiyun",
-    "name": "奈云机场",
-    "description": "节点覆盖广，支持多协议，解锁流媒体表现不错",
-    "icon": "https://placeholder.svg?height=48&width=48&query=奈云机场+logo",
-    "url": "https://www.v2ny.me",
-    "category": "vpn-services",
-    "tags": ["V2Ray", "Trojan", "流媒体解锁"],
-    "promoCode": "11meigui",
-    "discount": "20% OFF",
-    "promoDescription": "使用优惠码享受8折",
-    "promoExpiry": "长期有效",
-    "status": "normal",
-    "contact": {
-      "email": "",
-      "telegram": ""
-    },
-    "screenshot": "https://placeholder.svg?height=300&width=500&query=奈云机场+dashboard",
-    "lastActive": "2026-01",
-    "featured": true
-  },
-  {
-    "id": "cyberguard",
-    "name": "Cyberguard机场",
-    "description": "国际化机场，支持多地区节点，流媒体和游戏延迟控制优秀",
-    "icon": "https://placeholder.svg?height=48&width=48&query=Cyberguard+logo",
-    "url": "https://www.cyberguard.best",
-    "category": "vpn-services",
-    "tags": ["Shadowsocks", "Trojan", "国际节点"],
-    "promoCode": "11meigui",
-    "discount": "25% OFF",
-    "promoDescription": "全场75折优惠",
-    "promoExpiry": "长期有效",
-    "status": "normal",
-    "contact": {
-      "email": "",
-      "telegram": ""
-    },
-    "screenshot": "https://placeholder.svg?height=300&width=500&query=Cyberguard+dashboard",
-    "lastActive": "2026-01",
-    "featured": true
-  },
-  {
-    "id": "feimao",
-    "name": "肥猫云机场",
-    "description": "性价比路线为主，适合日常浏览和轻度流媒体需求",
-    "icon": "https://placeholder.svg?height=48&width=48&query=肥猫云机场+logo",
-    "url": "https://feimaoyun.com",
-    "category": "vpn-services",
-    "tags": ["便宜", "新手友好"],
-    "promoCode": "",
-    "discount": "",
-    "promoDescription": "",
-    "promoExpiry": "",
-    "status": "normal",
-    "contact": {
-      "email": "",
-      "telegram": ""
-    },
-    "screenshot": "https://placeholder.svg?height=300&width=500&query=肥猫云机场+dashboard",
-    "lastActive": "2026-01",
-    "featured": false
-  },
-  {
-    "id": "xueqiao",
-    "name": "雪橇云机场",
-    "description": "主打稳定高速线路，适合长时间使用和办公场景",
-    "icon": "https://placeholder.svg?height=48&width=48&query=雪橇云机场+logo",
-    "url": "https://xueqiao.cloud",
-    "category": "vpn-services",
-    "tags": ["稳定", "专线"],
-    "promoCode": "11meigui",
-    "discount": "15% OFF",
-    "promoDescription": "全场85折优惠码",
-    "promoExpiry": "长期有效",
-    "status": "normal",
-    "contact": {
-      "email": "",
-      "telegram": ""
-    },
-    "screenshot": "https://placeholder.svg?height=300&width=500&query=雪橇云机场+dashboard",
-    "lastActive": "2026-01",
-    "featured": true
-  },
-  {
-    "id": "hongxingyun",
-    "name": "红杏云机场",
-    "description": "节点质量均衡，价格区间友好，适合入门和长期用户",
-    "icon": "https://placeholder.svg?height=48&width=48&query=红杏云机场+logo",
-    "url": "https://hongxingyun.com",
-    "category": "vpn-services",
-    "tags": ["入门友好", "稳定"],
-    "promoCode": "",
-    "discount": "",
-    "promoDescription": "",
-    "promoExpiry": "",
-    "status": "normal",
-    "contact": {
-      "email": "",
-      "telegram": ""
-    },
-    "screenshot": "https://placeholder.svg?height=300&width=500&query=红杏云机场+dashboard",
-    "lastActive": "2026-01",
-    "featured": false
-  },
-  {
-    "id": "wgetcloud",
-    "name": "WgetCloud机场",
-    "description": "老牌高端机场，IEPL 专线，延迟和稳定性表现突出",
-    "icon": "https://placeholder.svg?height=48&width=48&query=WgetCloud+logo",
-    "url": "https://wgetcloud.com",
-    "category": "vpn-services",
-    "tags": ["IEPL", "高端线路"],
-    "promoCode": "",
-    "discount": "",
-    "promoDescription": "",
-    "promoExpiry": "",
-    "status": "normal",
-    "contact": {
-      "email": "",
-      "telegram": ""
-    },
-    "screenshot": "https://placeholder.svg?height=300&width=500&query=WgetCloud+dashboard",
-    "lastActive": "2026-01",
-    "featured": true
-  },
-  {
-    "id": "dami",
-    "name": "大米机场",
-    "description": "价格实惠，线路简单，适合备用或轻度用户",
-    "icon": "https://placeholder.svg?height=48&width=48&query=大米机场+logo",
-    "url": "https://dami.cloud",
-    "category": "vpn-services",
-    "tags": ["便宜", "备用机场"],
-    "promoCode": "",
-    "discount": "",
-    "promoDescription": "",
-    "promoExpiry": "",
-    "status": "normal",
-    "contact": {
-      "email": "",
-      "telegram": ""
-    },
-    "screenshot": "https://placeholder.svg?height=300&width=500&query=大米机场+dashboard",
-    "lastActive": "2026-01",
-    "featured": false
-  },
-  {
-    "id": "lanfan",
-    "name": "蓝帆云机场",
-    "description": "主打稳定性和性价比，节点覆盖亚洲与美区",
-    "icon": "https://placeholder.svg?height=48&width=48&query=蓝帆云机场+logo",
-    "url": "https://lanfan.cloud",
-    "category": "vpn-services",
-    "tags": ["性价比", "稳定"],
-    "promoCode": "",
-    "discount": "",
-    "promoDescription": "",
-    "promoExpiry": "",
-    "status": "normal",
-    "contact": {
-      "email": "",
-      "telegram": ""
-    },
-    "screenshot": "https://placeholder.svg?height=300&width=500&query=蓝帆云机场+dashboard",
-    "lastActive": "2026-01",
-    "featured": false
-  },
-  {
-    "id": "peiqian",
-    "name": "赔钱机场",
-    "description": "低价流量机场，适合测试、临时使用或备用",
-    "icon": "https://placeholder.svg?height=48&width=48&query=赔钱机场+logo",
-    "url": "https://peiqian.cloud",
-    "category": "vpn-services",
-    "tags": ["低价", "测试用途"],
-    "promoCode": "",
-    "discount": "",
-    "promoDescription": "",
-    "promoExpiry": "",
-    "status": "normal",
-    "contact": {
-      "email": "",
-      "telegram": ""
-    },
-    "screenshot": "https://placeholder.svg?height=300&width=500&query=赔钱机场+dashboard",
-    "lastActive": "2026-01",
-    "featured": false
-  }
-]
-    }
+    "sites": [
+        {
+            "id": "yizhihongxing",
+            "name": "一枝红杏加速器",
+            "description": "运营超过10年的老牌机场，专线节点多，稳定性和口碑都很强",
+            "icon": "/logo/yizhihongxing.png",
+            "url": "https://order.yizhihongxing.club/aff.php?aff=17788",
+            "category": "kaopu-airports",
+            "tags": [
+                "Shadowsocks",
+                "Trojan",
+                "老牌机场"
+            ],
+            "promoCode": "11meigui",
+            "discount": "10% OFF",
+            "promoDescription": "全场9折优惠码，长期有效",
+            "promoExpiry": "长期有效",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "/screenshot/yizhihongxing.jpg",
+            "lastActive": "2026-01",
+            "featured": true
+        },
+        {
+            "id": "naiyun",
+            "name": "奈云机场",
+            "description": "节点覆盖广，支持多协议，解锁流媒体表现不错",
+            "icon": "",
+            "url": "https://www.v2ny.me/?path=register&code=RRJkLoeU",
+            "category": "kaopu-airports",
+            "tags": [
+                "V2Ray",
+                "Trojan",
+                "流媒体解锁"
+            ],
+            "promoCode": "11meigui",
+            "discount": "20% OFF",
+            "promoDescription": "使用优惠码享受8折",
+            "promoExpiry": "长期有效",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01",
+            "featured": true
+        },
+        {
+            "id": "cyberguard",
+            "name": "Cyberguard机场",
+            "description": "国际化机场，支持多地区节点，流媒体和游戏延迟控制优秀",
+            "icon": "",
+            "url": "https://www.cyberguard.best/#/register?code=kEVKDdQ0",
+            "category": "kaopu-airports",
+            "tags": [
+                "Shadowsocks",
+                "Trojan",
+                "国际节点"
+            ],
+            "promoCode": "11meigui",
+            "discount": "25% OFF",
+            "promoDescription": "全场75折优惠",
+            "promoExpiry": "长期有效",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01",
+            "featured": true
+        },
+        {
+            "id": "feimao",
+            "name": "肥猫云机场",
+            "description": "性价比路线为主，适合日常浏览和轻度流媒体需求",
+            "icon": "",
+            "url": "https://jacszing.fcvipaff.cc/register?aff=q0NtEJIF",
+            "category": "kaopu-airports",
+            "tags": [
+                "便宜",
+                "新手友好"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01",
+            "featured": false
+        },
+        {
+            "id": "xueqiao",
+            "name": "雪橇云机场",
+            "description": "主打稳定高速线路，适合长时间使用和办公场景",
+            "icon": "",
+            "url": "https://net.sled.lol/#/register?code=TkO6RxBp",
+            "category": "kaopu-airports",
+            "tags": [
+                "稳定",
+                "专线"
+            ],
+            "promoCode": "11meigui",
+            "discount": "15% OFF",
+            "promoDescription": "全场85折优惠码",
+            "promoExpiry": "长期有效",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01",
+            "featured": true
+        },
+        {
+            "id": "hongxingyun",
+            "name": "红杏云机场",
+            "description": "节点质量均衡，价格区间友好，适合入门和长期用户",
+            "icon": "",
+            "url": "https://hongxingyun.club/web/#/login?code=QhIuhCJV",
+            "category": "kaopu-airports",
+            "tags": [
+                "入门友好",
+                "稳定"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01",
+            "featured": false
+        },
+        {
+            "id": "wgetcloud",
+            "name": "WgetCloud机场",
+            "description": "老牌高端机场，IEPL 专线，延迟和稳定性表现突出",
+            "icon": "",
+            "url": "https://invite.wgetcloud.ltd/auth/register?code=PY1wlV",
+            "category": "kaopu-airports",
+            "tags": [
+                "IEPL",
+                "高端线路"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01",
+            "featured": true
+        },
+        {
+            "id": "dami",
+            "name": "大米机场",
+            "description": "价格实惠，线路简单，适合备用或轻度用户",
+            "icon": "",
+            "url": "https://happy.bigmess.org/user#/register?code=DhAZ9Ytd",
+            "category": "kaopu-airports",
+            "tags": [
+                "便宜",
+                "备用机场"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01",
+            "featured": false
+        },
+        {
+            "id": "lanfan",
+            "name": "蓝帆云机场",
+            "description": "主打稳定性和性价比，节点覆盖亚洲与美区",
+            "icon": "",
+            "url": "https://p.lanfan.me/auth/register?code=yk3V",
+            "category": "kaopu-airports",
+            "tags": [
+                "性价比",
+                "稳定"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01",
+            "featured": false
+        },
+        {
+            "id": "peiqian",
+            "name": "赔钱机场",
+            "description": "低价流量机场，适合测试、临时使用或备用",
+            "icon": "",
+            "url": "https://赔钱.com/#/register?code=RJXPmRBE",
+            "category": "kaopu-airports",
+            "tags": [
+                "低价",
+                "测试用途"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01",
+            "featured": false
+        }
+    ]
+}

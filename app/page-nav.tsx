@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -9,6 +9,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Search, ExternalLink, Star, Mail, Send, Tag, ImageIcon, Info } from "lucide-react"
 import { Navigation } from "@/components/navigation"
 // import sitesData from "@/data/sites.json"
+import AirportLink from "@/components/ui/link"
 
 interface Site {
   id: string
@@ -34,34 +35,19 @@ interface Site {
 
 const categories = [
   {
-    id: "design-tools",
-    name: "Design Tools",
-    description: "Essential design and prototyping tools",
+    id: "kaopu-airports",
+    name: "靠谱机场",
+    description: "靠谱机场，拼的不是噱头和低价，而是长期稳定的速度、节点在线率和用得住的体验。",
   },
   {
-    id: "dev-tools",
-    name: "Developer Tools",
-    description: "Essential tools for developers",
+    id: "cheap-airports",
+    name: "便宜机场",
+    description: "便宜机场，不只是低价，更是能让你用得顺心、稳定且少踩坑的实惠选择。",
   },
   {
-    id: "ai-tools",
-    name: "AI & Productivity",
-    description: "AI-powered productivity enhancers",
-  },
-  {
-    id: "learning",
-    name: "Learning Resources",
-    description: "Educational platforms and documentation",
-  },
-  {
-    id: "inspiration",
-    name: "Design Inspiration",
-    description: "Beautiful design galleries and inspiration",
-  },
-  {
-    id: "utilities",
-    name: "Utilities",
-    description: "Handy web utilities and converters",
+    id: "free-airports",
+    name: "免费机场",
+    description: "免费机场，看似零成本，但稳定性和速度才是检验价值的关键，选对了才能真正安心使用。",
   },
 ]
 
@@ -91,7 +77,7 @@ const getStatusLabel = (status: Site["status"]) => {
   }
 }
 
-type Props = { sites: Site[] }
+type Props = { websites: Site[] }
 
 // import type { GetStaticProps } from 'next'
 
@@ -103,12 +89,20 @@ type Props = { sites: Site[] }
 //   return { props:{sites} };
 // }
 
-export default function NavigationPage({ sites }: Props) {
+export default function NavigationPage({ websites }: Props) {
   const [searchQuery, setSearchQuery] = useState("")
   const [activeCategory, setActiveCategory] = useState<string>("all")
   const [hoveredScreenshot, setHoveredScreenshot] = useState<string | null>(null)
   const [hoveredCard, setHoveredCard] = useState<string | null>(null)
   const [selectedSite, setSelectedSite] = useState<Site | null>(null)
+  const [sites, setSites] = useState<Site[]>([])
+
+  useEffect(function(){
+    // console.log("-----", websites)
+    if (websites) {
+      setSites(websites)
+    }
+  }, [websites])
 
   // const sites: Site[] = sitesData.sites
 
@@ -140,11 +134,11 @@ export default function NavigationPage({ sites }: Props) {
           <div className="flex flex-col gap-4 sm:gap-6">
             <div className="flex items-center justify-between">
               <div>
-                <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-foreground">WebNav</h1>
-                <p className="text-xs sm:text-sm text-muted-foreground mt-1">Your curated web directory</p>
+                <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-foreground">靠谱机场导航｜机场推荐与优惠码一站式整理</h1>
+                <p className="text-xs sm:text-sm text-muted-foreground mt-1">精选稳定机场 · 实时更新优惠码 · 少踩坑的机场指南</p>
               </div>
               <Badge variant="secondary" className="hidden sm:flex text-xs">
-                {sites.length} Resources
+                {sites.length} 机场
               </Badge>
             </div>
 
@@ -153,7 +147,7 @@ export default function NavigationPage({ sites }: Props) {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <Input
                 type="text"
-                placeholder="Search resources..."
+                placeholder="搜索机场..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="pl-10"
@@ -177,7 +171,7 @@ export default function NavigationPage({ sites }: Props) {
                 className="flex-shrink-0"
               >
                 <Star className="h-3 w-3 mr-1" />
-                Featured
+              优惠
               </Button>
               {categories.map((category) => (
                 <Button
@@ -329,10 +323,11 @@ export default function NavigationPage({ sites }: Props) {
                               className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors bg-transparent text-xs sm:text-sm"
                               asChild
                             >
-                              <a href={site.url} target="_blank" rel="noopener noreferrer">
-                                Visit Site
+                              {/* <a href={site.url} target="_blank" rel="noopener noreferrer">
+                                官网地址
                                 <ExternalLink className="h-3 w-3 ml-2" />
-                              </a>
+                              </a> */}
+                              <AirportLink url={site.url} title={"进入机场官网"} />
                             </Button>
                           </div>
                         </CardContent>
@@ -364,7 +359,7 @@ export default function NavigationPage({ sites }: Props) {
 
         {filteredSites.length === 0 && (
           <div className="text-center py-12 sm:py-16">
-            <p className="text-muted-foreground text-base sm:text-lg">No resources found matching your search.</p>
+            <p className="text-muted-foreground text-base sm:text-lg">没有找到你搜索关键词匹配的机场！</p>
           </div>
         )}
       </main>
@@ -486,10 +481,11 @@ export default function NavigationPage({ sites }: Props) {
                 </div>
 
                 <Button className="w-full" size="lg" asChild>
-                  <a href={selectedSite.url} target="_blank" rel="noopener noreferrer">
+                  {/* <a href={selectedSite.url} target="_blank" rel="noopener noreferrer">
                     访问网站
                     <ExternalLink className="h-4 w-4 ml-2" />
-                  </a>
+                  </a> */}
+                    <AirportLink url={selectedSite.url} title={"进入机场官网"} />
                 </Button>
               </div>
             </>
@@ -501,8 +497,9 @@ export default function NavigationPage({ sites }: Props) {
       <footer className="border-t border-border mt-12 sm:mt-16">
         <div className="container mx-auto px-4 py-6 sm:py-8">
           <div className="text-center text-xs sm:text-sm text-muted-foreground">
-            <p>A curated collection of useful web resources</p>
-            <p className="mt-2">Built with Next.js & Tailwind CSS</p>
+            <p>本站内容来源于公开信息与用户反馈整理，仅作为信息参考使用。机场服务的稳定性、速度与可用性可能因时间与地区不同而有所变化，建议在购买前自行判断是否符合自身需求。</p>
+            <p className="mt-2">本站仅提供机场信息整理与推荐导航服务，不提供任何网络代理或加速服务。所有机场服务均由第三方独立运营，使用过程中产生的任何问题或风险，需由用户自行承担。</p>
+            <p>© 2026 靠谱机场导航 · 机场推荐与优惠码一站式整理. All rights reserved.</p>
           </div>
         </div>
       </footer>

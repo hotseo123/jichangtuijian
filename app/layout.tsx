@@ -8,14 +8,14 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "WebNav - 精选网站导航 | 设计、开发、AI工具大全",
+  title: "靠谱机场导航｜机场推荐与优惠码一站式整理",
   description:
-    "WebNav 是一个精选的网站导航目录，收录设计工具、开发工具、AI助手、学习资源等优质网站。支持分类浏览、实时搜索，帮助您快速找到所需的在线工具和资源。",
-  keywords: ["网站导航", "设计工具", "开发工具", "AI工具", "在线工具", "资源导航", "web导航", "网址大全"],
-  authors: [{ name: "WebNav" }],
-  creator: "WebNav",
-  publisher: "WebNav",
-  generator: "v0.app",
+    "整理长期稳定的靠谱机场推荐，汇总最新机场优惠码与套餐信息，支持 Clash、V2Ray、Shadowrocket 等客户端，提供真实使用体验与对比参考，一站式选机场更省心。",
+  keywords: ["靠谱机场导航", "机场推荐", "机场推荐与优惠码", "机场推荐与优惠码一站式整理"],
+  authors: [{ name: "靠谱机场导航" }],
+  creator: "靠谱机场导航",
+  publisher: "靠谱机场导航",
+  generator: "机场主",
   metadataBase: new URL("https://your-domain.com"),
   alternates: {
     canonical: "/",
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "zh_CN",
     url: "/",
-    title: "WebNav - 精选网站导航 | 设计、开发、AI工具大全",
-    description: "精选的网站导航目录，收录设计工具、开发工具、AI助手、学习资源等优质网站",
-    siteName: "WebNav",
+    title: "靠谱机场导航｜机场推荐与优惠码一站式整理",
+    description: "整理长期稳定的靠谱机场推荐，汇总最新机场优惠码与套餐信息，支持 Clash、V2Ray、Shadowrocket 等客户端，提供真实使用体验与对比参考，一站式选机场更省心。",
+    siteName: "靠谱机场导航",
   },
   twitter: {
     card: "summary_large_image",
-    title: "WebNav - 精选网站导航",
-    description: "精选的网站导航目录，收录设计工具、开发工具、AI助手、学习资源等优质网站",
+    title: "靠谱机场导航",
+    description: "整理长期稳定的靠谱机场推荐，汇总最新机场优惠码与套餐信息，支持 Clash、V2Ray、Shadowrocket 等客户端，提供真实使用体验与对比参考，一站式选机场更省心。",
   },
   robots: {
     index: true,

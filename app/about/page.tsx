@@ -15,8 +15,8 @@ export default function AboutPage() {
             <div className="inline-flex items-center justify-center p-2 bg-primary/10 rounded-full mb-4">
               <Info className="h-8 w-8 text-primary" />
             </div>
-            <h1 className="text-4xl font-bold text-foreground mb-4">关于 WebNav</h1>
-            <p className="text-lg text-muted-foreground text-balance">一个精心策划的网站导航项目</p>
+            <h1 className="text-4xl font-bold text-foreground mb-4">靠谱机场导航</h1>
+            <p className="text-lg text-muted-foreground text-balance">机场推荐与优惠码一站式整理</p>
           </div>
 
           <div className="space-y-6">
