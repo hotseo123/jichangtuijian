@@ -96,9 +96,11 @@ type Props = { sites: Site[] }
 import type { GetStaticProps } from 'next'
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  // 动态 import 只在 Node 端运行
-  const { getSites } = await import('@/lib/getSites.server');
-  return { props: { sites: getSites() } };
+  const fs = await import('fs');
+  const path = await import('path');
+  const file = path.join(process.cwd(),'data','sites.json');
+  const sites = JSON.parse(fs.readFileSync(file,'utf8')).sites;
+  return { props:{sites} };
 }
 
 export default function NavigationPage({ sites }: Props) {
