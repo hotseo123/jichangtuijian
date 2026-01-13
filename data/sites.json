@@ -1,214 +1,214 @@
 {
   "sites": [
-    {
-      "id": "figma",
-      "name": "Figma",
-      "description": "Collaborative interface design tool for teams",
-      "icon": "https://placeholder.svg?height=48&width=48&query=figma+logo",
-      "url": "https://figma.com",
-      "category": "design-tools",
-      "tags": ["Design", "Prototyping", "Collaboration"],
-      "promoCode": "DESIGN2024",
-      "discount": "30% OFF",
-      "promoDescription": "Get 30% off on annual Professional plans",
-      "promoExpiry": "2024-12-31",
-      "status": "normal",
-      "contact": {
-        "email": "support@figma.com",
-        "telegram": "@figma"
-      },
-      "screenshot": "https://placeholder.svg?height=300&width=500&query=figma+dashboard+screenshot",
-      "lastActive": "2024-01-10",
-      "featured": true
+  {
+    "id": "yizhihongxing",
+    "name": "一枝红杏加速器",
+    "description": "运营超过10年的老牌机场，专线节点多，稳定性和口碑都很强",
+    "icon": "https://placeholder.svg?height=48&width=48&query=一枝红杏加速器+logo",
+    "url": "https://order.yizhihongxing.club",
+    "category": "vpn-services",
+    "tags": ["Shadowsocks", "Trojan", "老牌机场"],
+    "promoCode": "11meigui",
+    "discount": "10% OFF",
+    "promoDescription": "全场9折优惠码，长期有效",
+    "promoExpiry": "长期有效",
+    "status": "normal",
+    "contact": {
+      "email": "",
+      "telegram": ""
     },
-    {
-      "id": "framer",
-      "name": "Framer",
-      "description": "Interactive design and prototyping platform",
-      "icon": "https://placeholder.svg?height=48&width=48&query=framer+logo",
-      "url": "https://framer.com",
-      "category": "design-tools",
-      "tags": ["Design", "Animation", "Web"],
-      "promoCode": "",
-      "discount": "",
-      "promoDescription": "",
-      "promoExpiry": "",
-      "status": "normal",
-      "contact": {
-        "email": "hello@framer.com",
-        "telegram": ""
-      },
-      "screenshot": "https://placeholder.svg?height=300&width=500&query=framer+interface+screenshot",
-      "lastActive": "2024-01-11",
-      "featured": false
+    "screenshot": "https://placeholder.svg?height=300&width=500&query=一枝红杏加速器+dashboard",
+    "lastActive": "2026-01",
+    "featured": true
+  },
+  {
+    "id": "naiyun",
+    "name": "奈云机场",
+    "description": "节点覆盖广，支持多协议，解锁流媒体表现不错",
+    "icon": "https://placeholder.svg?height=48&width=48&query=奈云机场+logo",
+    "url": "https://www.v2ny.me",
+    "category": "vpn-services",
+    "tags": ["V2Ray", "Trojan", "流媒体解锁"],
+    "promoCode": "11meigui",
+    "discount": "20% OFF",
+    "promoDescription": "使用优惠码享受8折",
+    "promoExpiry": "长期有效",
+    "status": "normal",
+    "contact": {
+      "email": "",
+      "telegram": ""
     },
-    {
-      "id": "canva",
-      "name": "Canva",
-      "description": "Easy graphic design platform for everyone",
-      "icon": "https://placeholder.svg?height=48&width=48&query=canva+logo",
-      "url": "https://canva.com",
-      "category": "design-tools",
-      "tags": ["Design", "Templates", "Graphics"],
-      "promoCode": "CANVA50",
-      "discount": "50% OFF",
-      "promoDescription": "50% off Canva Pro for first 3 months",
-      "promoExpiry": "2024-06-30",
-      "status": "normal",
-      "contact": {
-        "email": "support@canva.com",
-        "telegram": "@canvahelp"
-      },
-      "screenshot": "https://placeholder.svg?height=300&width=500&query=canva+editor+screenshot",
-      "lastActive": "2024-01-12",
-      "featured": false
+    "screenshot": "https://placeholder.svg?height=300&width=500&query=奈云机场+dashboard",
+    "lastActive": "2026-01",
+    "featured": true
+  },
+  {
+    "id": "cyberguard",
+    "name": "Cyberguard机场",
+    "description": "国际化机场，支持多地区节点，流媒体和游戏延迟控制优秀",
+    "icon": "https://placeholder.svg?height=48&width=48&query=Cyberguard+logo",
+    "url": "https://www.cyberguard.best",
+    "category": "vpn-services",
+    "tags": ["Shadowsocks", "Trojan", "国际节点"],
+    "promoCode": "11meigui",
+    "discount": "25% OFF",
+    "promoDescription": "全场75折优惠",
+    "promoExpiry": "长期有效",
+    "status": "normal",
+    "contact": {
+      "email": "",
+      "telegram": ""
     },
-    {
-      "id": "spline",
-      "name": "Spline",
-      "description": "3D design tool for the web",
-      "icon": "https://placeholder.svg?height=48&width=48&query=spline+3d+logo",
-      "url": "https://spline.design",
-      "category": "design-tools",
-      "tags": ["3D", "Design", "Interactive"],
-      "promoCode": "",
-      "discount": "",
-      "promoDescription": "",
-      "promoExpiry": "",
-      "status": "unstable",
-      "contact": {
-        "email": "hello@spline.design",
-        "telegram": ""
-      },
-      "screenshot": "https://placeholder.svg?height=300&width=500&query=spline+3d+editor+screenshot",
-      "lastActive": "2024-01-05",
-      "featured": false
+    "screenshot": "https://placeholder.svg?height=300&width=500&query=Cyberguard+dashboard",
+    "lastActive": "2026-01",
+    "featured": true
+  },
+  {
+    "id": "feimao",
+    "name": "肥猫云机场",
+    "description": "性价比路线为主，适合日常浏览和轻度流媒体需求",
+    "icon": "https://placeholder.svg?height=48&width=48&query=肥猫云机场+logo",
+    "url": "https://feimaoyun.com",
+    "category": "vpn-services",
+    "tags": ["便宜", "新手友好"],
+    "promoCode": "",
+    "discount": "",
+    "promoDescription": "",
+    "promoExpiry": "",
+    "status": "normal",
+    "contact": {
+      "email": "",
+      "telegram": ""
     },
-    {
-      "id": "github",
-      "name": "GitHub",
-      "description": "Code hosting and collaboration platform",
-      "icon": "https://placeholder.svg?height=48&width=48&query=github+logo",
-      "url": "https://github.com",
-      "category": "dev-tools",
-      "tags": ["Code", "Git", "Collaboration"],
-      "promoCode": "",
-      "discount": "",
-      "promoDescription": "",
-      "promoExpiry": "",
-      "status": "normal",
-      "contact": {
-        "email": "support@github.com",
-        "telegram": "@github"
-      },
-      "screenshot": "https://placeholder.svg?height=300&width=500&query=github+repository+screenshot",
-      "lastActive": "2024-01-13",
-      "featured": true
+    "screenshot": "https://placeholder.svg?height=300&width=500&query=肥猫云机场+dashboard",
+    "lastActive": "2026-01",
+    "featured": false
+  },
+  {
+    "id": "xueqiao",
+    "name": "雪橇云机场",
+    "description": "主打稳定高速线路，适合长时间使用和办公场景",
+    "icon": "https://placeholder.svg?height=48&width=48&query=雪橇云机场+logo",
+    "url": "https://xueqiao.cloud",
+    "category": "vpn-services",
+    "tags": ["稳定", "专线"],
+    "promoCode": "11meigui",
+    "discount": "15% OFF",
+    "promoDescription": "全场85折优惠码",
+    "promoExpiry": "长期有效",
+    "status": "normal",
+    "contact": {
+      "email": "",
+      "telegram": ""
     },
-    {
-      "id": "vercel",
-      "name": "Vercel",
-      "description": "Deploy web apps instantly with zero configuration",
-      "icon": "https://placeholder.svg?height=48&width=48&query=vercel+logo",
-      "url": "https://vercel.com",
-      "category": "dev-tools",
-      "tags": ["Deployment", "Hosting", "Frontend"],
-      "promoCode": "DEPLOY25",
-      "discount": "25% OFF",
-      "promoDescription": "25% off Pro plan for 6 months",
-      "promoExpiry": "2024-09-30",
-      "status": "normal",
-      "contact": {
-        "email": "support@vercel.com",
-        "telegram": "@vercel"
-      },
-      "screenshot": "https://placeholder.svg?height=300&width=500&query=vercel+dashboard+screenshot",
-      "lastActive": "2024-01-13",
-      "featured": true
+    "screenshot": "https://placeholder.svg?height=300&width=500&query=雪橇云机场+dashboard",
+    "lastActive": "2026-01",
+    "featured": true
+  },
+  {
+    "id": "hongxingyun",
+    "name": "红杏云机场",
+    "description": "节点质量均衡，价格区间友好，适合入门和长期用户",
+    "icon": "https://placeholder.svg?height=48&width=48&query=红杏云机场+logo",
+    "url": "https://hongxingyun.com",
+    "category": "vpn-services",
+    "tags": ["入门友好", "稳定"],
+    "promoCode": "",
+    "discount": "",
+    "promoDescription": "",
+    "promoExpiry": "",
+    "status": "normal",
+    "contact": {
+      "email": "",
+      "telegram": ""
     },
-    {
-      "id": "vscode",
-      "name": "VS Code",
-      "description": "Powerful and lightweight code editor",
-      "icon": "https://placeholder.svg?height=48&width=48&query=vscode+logo",
-      "url": "https://code.visualstudio.com",
-      "category": "dev-tools",
-      "tags": ["Editor", "IDE", "Development"],
-      "promoCode": "",
-      "discount": "",
-      "promoDescription": "",
-      "promoExpiry": "",
-      "status": "normal",
-      "contact": {
-        "email": "vscode@microsoft.com",
-        "telegram": ""
-      },
-      "screenshot": "https://placeholder.svg?height=300&width=500&query=vscode+editor+screenshot",
-      "lastActive": "2024-01-12",
-      "featured": false
+    "screenshot": "https://placeholder.svg?height=300&width=500&query=红杏云机场+dashboard",
+    "lastActive": "2026-01",
+    "featured": false
+  },
+  {
+    "id": "wgetcloud",
+    "name": "WgetCloud机场",
+    "description": "老牌高端机场，IEPL 专线，延迟和稳定性表现突出",
+    "icon": "https://placeholder.svg?height=48&width=48&query=WgetCloud+logo",
+    "url": "https://wgetcloud.com",
+    "category": "vpn-services",
+    "tags": ["IEPL", "高端线路"],
+    "promoCode": "",
+    "discount": "",
+    "promoDescription": "",
+    "promoExpiry": "",
+    "status": "normal",
+    "contact": {
+      "email": "",
+      "telegram": ""
     },
-    {
-      "id": "postman",
-      "name": "Postman",
-      "description": "API development and testing platform",
-      "icon": "https://placeholder.svg?height=48&width=48&query=postman+logo",
-      "url": "https://postman.com",
-      "category": "dev-tools",
-      "tags": ["API", "Testing", "Development"],
-      "promoCode": "",
-      "discount": "",
-      "promoDescription": "",
-      "promoExpiry": "",
-      "status": "offline",
-      "contact": {
-        "email": "help@postman.com",
-        "telegram": "@postmanapi"
-      },
-      "screenshot": "https://placeholder.svg?height=300&width=500&query=postman+api+testing+screenshot",
-      "lastActive": "2023-12-20",
-      "featured": false
+    "screenshot": "https://placeholder.svg?height=300&width=500&query=WgetCloud+dashboard",
+    "lastActive": "2026-01",
+    "featured": true
+  },
+  {
+    "id": "dami",
+    "name": "大米机场",
+    "description": "价格实惠，线路简单，适合备用或轻度用户",
+    "icon": "https://placeholder.svg?height=48&width=48&query=大米机场+logo",
+    "url": "https://dami.cloud",
+    "category": "vpn-services",
+    "tags": ["便宜", "备用机场"],
+    "promoCode": "",
+    "discount": "",
+    "promoDescription": "",
+    "promoExpiry": "",
+    "status": "normal",
+    "contact": {
+      "email": "",
+      "telegram": ""
     },
-    {
-      "id": "chatgpt",
-      "name": "ChatGPT",
-      "description": "AI conversational assistant by OpenAI",
-      "icon": "https://placeholder.svg?height=48&width=48&query=chatgpt+logo",
-      "url": "https://chat.openai.com",
-      "category": "ai-tools",
-      "tags": ["AI", "Chat", "Assistant"],
-      "promoCode": "",
-      "discount": "",
-      "promoDescription": "",
-      "promoExpiry": "",
-      "status": "normal",
-      "contact": {
-        "email": "support@openai.com",
-        "telegram": ""
-      },
-      "screenshot": "https://placeholder.svg?height=300&width=500&query=chatgpt+interface+screenshot",
-      "lastActive": "2024-01-13",
-      "featured": true
+    "screenshot": "https://placeholder.svg?height=300&width=500&query=大米机场+dashboard",
+    "lastActive": "2026-01",
+    "featured": false
+  },
+  {
+    "id": "lanfan",
+    "name": "蓝帆云机场",
+    "description": "主打稳定性和性价比，节点覆盖亚洲与美区",
+    "icon": "https://placeholder.svg?height=48&width=48&query=蓝帆云机场+logo",
+    "url": "https://lanfan.cloud",
+    "category": "vpn-services",
+    "tags": ["性价比", "稳定"],
+    "promoCode": "",
+    "discount": "",
+    "promoDescription": "",
+    "promoExpiry": "",
+    "status": "normal",
+    "contact": {
+      "email": "",
+      "telegram": ""
     },
-    {
-      "id": "notion",
-      "name": "Notion",
-      "description": "All-in-one workspace for notes and collaboration",
-      "icon": "https://placeholder.svg?height=48&width=48&query=notion+logo",
-      "url": "https://notion.so",
-      "category": "ai-tools",
-      "tags": ["Productivity", "Notes", "Workspace"],
-      "promoCode": "NOTION20",
-      "discount": "20% OFF",
-      "promoDescription": "20% off annual Plus and Business plans",
-      "promoExpiry": "2024-08-31",
-      "status": "normal",
-      "contact": {
-        "email": "team@makenotion.com",
-        "telegram": "@notionhq"
-      },
-      "screenshot": "https://placeholder.svg?height=300&width=500&query=notion+workspace+screenshot",
-      "lastActive": "2024-01-13",
-      "featured": true
+    "screenshot": "https://placeholder.svg?height=300&width=500&query=蓝帆云机场+dashboard",
+    "lastActive": "2026-01",
+    "featured": false
+  },
+  {
+    "id": "peiqian",
+    "name": "赔钱机场",
+    "description": "低价流量机场，适合测试、临时使用或备用",
+    "icon": "https://placeholder.svg?height=48&width=48&query=赔钱机场+logo",
+    "url": "https://peiqian.cloud",
+    "category": "vpn-services",
+    "tags": ["低价", "测试用途"],
+    "promoCode": "",
+    "discount": "",
+    "promoDescription": "",
+    "promoExpiry": "",
+    "status": "normal",
+    "contact": {
+      "email": "",
+      "telegram": ""
+    },
+    "screenshot": "https://placeholder.svg?height=300&width=500&query=赔钱机场+dashboard",
+    "lastActive": "2026-01",
+    "featured": false
+  }
+]
     }
-  ]
-}
