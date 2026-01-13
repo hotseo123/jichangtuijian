@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Search, ExternalLink, Star, Mail, Send, Tag, ImageIcon, Info } from "lucide-react"
 import { Navigation } from "@/components/navigation"
-import sitesData from "@/data/sites.json"
+// import sitesData from "@/data/sites.json"
 
 interface Site {
   id: string
@@ -91,7 +91,20 @@ const getStatusLabel = (status: Site["status"]) => {
   }
 }
 
-export default function NavigationPage() {
+type Props = { sites: Site[] }
+
+// 同文件最底部，新增
+import { GetStaticProps } from 'next'
+import fs from 'fs'
+import path from 'path'
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const file = path.join(process.cwd(), 'data', 'sites.json')
+  const sites: Site[] = JSON.parse(fs.readFileSync(file, 'utf8')).sites
+  return { props: { sites } }
+}
+
+export default function NavigationPage({ sites }: Props) {
   const [searchQuery, setSearchQuery] = useState("")
   const [activeCategory, setActiveCategory] = useState<string>("all")
   const [hoveredScreenshot, setHoveredScreenshot] = useState<string | null>(null)
