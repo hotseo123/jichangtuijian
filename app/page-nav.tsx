@@ -93,15 +93,15 @@ const getStatusLabel = (status: Site["status"]) => {
 
 type Props = { sites: Site[] }
 
-import type { GetStaticProps } from 'next'
+// import type { GetStaticProps } from 'next'
 
-export const getStaticProps: GetStaticProps<Props> = async () => {
-  const fs = await import('fs');
-  const path = await import('path');
-  const file = path.join(process.cwd(),'data','sites.json');
-  const sites = JSON.parse(fs.readFileSync(file,'utf8')).sites;
-  return { props:{sites} };
-}
+// export const getStaticProps: GetStaticProps<Props> = async () => {
+//   const fs = await import('fs');
+//   const path = await import('path');
+//   const file = path.join(process.cwd(),'data','sites.json');
+//   const sites = JSON.parse(fs.readFileSync(file,'utf8')).sites;
+//   return { props:{sites} };
+// }
 
 export default function NavigationPage({ sites }: Props) {
   const [searchQuery, setSearchQuery] = useState("")
@@ -110,7 +110,7 @@ export default function NavigationPage({ sites }: Props) {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null)
   const [selectedSite, setSelectedSite] = useState<Site | null>(null)
 
-  const sites: Site[] = sitesData.sites
+  // const sites: Site[] = sitesData.sites
 
   const filteredSites = sites.filter((site) => {
     if (activeCategory === "featured") return site.featured
