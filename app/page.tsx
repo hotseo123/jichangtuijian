@@ -93,15 +93,12 @@ const getStatusLabel = (status: Site["status"]) => {
 
 type Props = { sites: Site[] }
 
-// 同文件最底部，新增
-import { GetStaticProps } from 'next'
-import fs from 'fs'
-import path from 'path'
+import type { GetStaticProps } from 'next'
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const file = path.join(process.cwd(), 'data', 'sites.json')
-  const sites: Site[] = JSON.parse(fs.readFileSync(file, 'utf8')).sites
-  return { props: { sites } }
+  // 动态 import 只在 Node 端运行
+  const { getSites } = await import('@/lib/getSites.server');
+  return { props: { sites: getSites() } };
 }
 
 export default function NavigationPage({ sites }: Props) {
