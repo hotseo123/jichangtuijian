@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   creator: "靠谱机场导航",
   publisher: "靠谱机场导航",
   generator: "机场主",
-  metadataBase: new URL("https://your-domain.com"),
+  // metadataBase: new URL("https://"),
   alternates: {
     canonical: "/",
   },

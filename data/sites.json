@@ -22,7 +22,7 @@
                 "telegram": ""
             },
             "screenshot": "/screenshot/yizhihongxing.jpg",
-            "lastActive": "2026-01",
+            "lastActive": "2026-01-14",
             "featured": true
         },
         {
@@ -47,7 +47,7 @@
                 "telegram": ""
             },
             "screenshot": "",
-            "lastActive": "2026-01",
+            "lastActive": "2026-01-14",
             "featured": true
         },
         {
@@ -72,7 +72,7 @@
                 "telegram": ""
             },
             "screenshot": "",
-            "lastActive": "2026-01",
+            "lastActive": "2026-01-14",
             "featured": true
         },
         {
@@ -96,7 +96,7 @@
                 "telegram": ""
             },
             "screenshot": "",
-            "lastActive": "2026-01",
+            "lastActive": "2026-01-14",
             "featured": false
         },
         {
@@ -120,7 +120,7 @@
                 "telegram": ""
             },
             "screenshot": "",
-            "lastActive": "2026-01",
+            "lastActive": "2026-01-14",
             "featured": true
         },
         {
@@ -144,7 +144,7 @@
                 "telegram": ""
             },
             "screenshot": "",
-            "lastActive": "2026-01",
+            "lastActive": "2026-01-14",
             "featured": false
         },
         {
@@ -168,7 +168,7 @@
                 "telegram": ""
             },
             "screenshot": "",
-            "lastActive": "2026-01",
+            "lastActive": "2026-01-14",
             "featured": true
         },
         {
@@ -177,7 +177,7 @@
             "description": "价格实惠，线路简单，适合备用或轻度用户",
             "icon": "",
             "url": "https://happy.bigmess.org/user#/register?code=DhAZ9Ytd",
-            "category": "kaopu-airports",
+            "category": "cheap-airports",
             "tags": [
                 "便宜",
                 "备用机场"
@@ -192,7 +192,7 @@
                 "telegram": ""
             },
             "screenshot": "",
-            "lastActive": "2026-01",
+            "lastActive": "2026-01-14",
             "featured": false
         },
         {
@@ -216,7 +216,7 @@
                 "telegram": ""
             },
             "screenshot": "",
-            "lastActive": "2026-01",
+            "lastActive": "2026-01-14",
             "featured": false
         },
         {
@@ -225,7 +225,7 @@
             "description": "低价流量机场，适合测试、临时使用或备用",
             "icon": "",
             "url": "https://赔钱.com/#/register?code=RJXPmRBE",
-            "category": "kaopu-airports",
+            "category": "cheap-airports",
             "tags": [
                 "低价",
                 "测试用途"
@@ -240,7 +240,124 @@
                 "telegram": ""
             },
             "screenshot": "",
-            "lastActive": "2026-01",
+            "lastActive": "2026-01-14",
+            "featured": false
+        },
+        {
+            "id": "coupons",
+            "name": "机场优惠码汇总",
+            "description": "一个最新机场梯子VPN优惠码汇总合集",
+            "icon": "/logo/github.png",
+            "url": "https://github.com/hotseo123/jichangtizi-youhuima",
+            "category": "find-airports",
+            "tags": [
+                "Github",
+                "机场优惠码"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01-14",
+            "featured": false
+        },
+        {
+            "id": "airports-recommend",
+            "name": "优质稳定机场推荐",
+            "description": "推荐真正长期稳定、实际可用的机场",
+            "icon": "/logo/github.png",
+            "url": "https://github.com/hotseo123/shida-jichang-tuijian",
+            "category": "find-airports",
+            "tags": [
+                "Github",
+                "机场推荐"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01-14",
+            "featured": false
+        },
+        {
+            "id": "jichangnav",
+            "name": "机场导航梯子导航 ",
+            "description": "一个专门整理科学上网机场的推荐平台",
+            "icon": "/logo/jichangnav.png",
+            "url": "https://jichangnav.org/",
+            "category": "find-airports",
+            "tags": [
+                "机场推荐"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01-14",
+            "featured": false
+        },
+        {
+            "id": "clashsub",
+            "name": "付费翻墙机场推荐 ",
+            "description": "涵盖一线机场、高端机场和顶级节点资源",
+            "icon": "/logo/clashsub.png",
+            "url": "https:/clashsub.org/",
+            "category": "find-airports",
+            "tags": [
+                "机场推荐"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01-14",
+            "featured": false
+        },
+        {
+            "id": "clashx",
+            "name": "ClashX指南",
+            "description": "提供Clash & ClashX 详细使用教程",
+            "icon": "/logo/clashx.webp",
+            "url": "https:/clashx.cc/",
+            "category": "find-airports",
+            "tags": [
+                "机场推荐"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01-14",
             "featured": false
         }
     ]

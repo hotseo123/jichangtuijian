@@ -50,6 +50,11 @@ const categories = [
     name: "免费机场",
     description: "免费机场，看似零成本，但稳定性和速度才是检验价值的关键，选对了才能真正安心使用。",
   },
+  {
+    id: "find-airports",
+    name: "找机场",
+    description: "GitHub机场信息以及专门机场推荐的一些网站资源",
+  },
 ]
 
 const getStatusColor = (status: Site["status"]) => {
@@ -143,7 +148,7 @@ export default function NavigationPage({ websites }: Props) {
                 </p>
               </div>
               <Badge variant="secondary" className="hidden sm:flex text-xs">
-                {sites.length} 机场
+                {sites.length} 个机场资源
               </Badge>
             </div>
 
@@ -241,30 +246,16 @@ export default function NavigationPage({ websites }: Props) {
                           </div>
                         )}
 
-                        <div className="absolute top-3 right-3 z-20 flex flex-col gap-1 items-end">
-                          <Button
-                            variant="ghost"
-                            size="icon"
-                            className="h-7 w-7 rounded-full bg-background/80 hover:bg-primary hover:text-primary-foreground backdrop-blur-sm"
-                            onClick={() => setSelectedSite(site)}
-                          >
-                            <Info className="h-4 w-4" />
-                          </Button>
-                          {site.discount && (
-                            <Badge variant="destructive" className="text-xs font-bold">
-                              {site.discount}
-                            </Badge>
-                          )}
-                          {site.tags.length > 0 && (
-                            <Badge variant="secondary" className="text-xs">
-                              <Tag className="h-3 w-3 mr-1" />
-                              {site.tags[0]}
-                            </Badge>
-                          )}
+                        <div className="absolute top-0 right-0 z-20 flex flex-col gap-1 items-end">
+                              {site.discount && (
+                                <Badge variant="destructive" className="text-xs font-bold">
+                                  {site.discount}
+                                </Badge>
+                              )}
                         </div>
 
                         {site.promoCode && (
-                          <div className="absolute top-3 left-3 z-20">
+                          <div className="absolute top-0 left-3 z-20">
                             <Badge variant="default" className="text-xs bg-primary">
                               优惠
                             </Badge>
@@ -276,11 +267,11 @@ export default function NavigationPage({ websites }: Props) {
                             <img
                               src={site.icon || "/placeholder.svg"}
                               alt={`${site.name} icon`}
-                              className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex-shrink-0"
+                              className="w-10 h-10 sm:w-10 sm:h-10 rounded-lg flex-shrink-0"
                             />
                             <div className="flex-1 min-w-0">
                               <CardTitle className="text-base sm:text-lg flex items-center gap-2">
-                                <span className="truncate">{site.name}</span>
+                                <h4><span className="truncate">{site.name}</span></h4>
                                 {site.featured && <Star className="h-4 w-4 fill-primary text-primary flex-shrink-0" />}
                               </CardTitle>
                               <div className="flex items-center gap-2 mt-2">
@@ -295,7 +286,7 @@ export default function NavigationPage({ websites }: Props) {
                         </CardHeader>
                         <CardContent>
                           <div className="space-y-3">
-                            <div className="flex items-center gap-3 text-xs text-muted-foreground flex-wrap">
+                            <div className="flex items-center gap-3 text-xs text-muted-foreground flex-nowrap">
                               {site.contact.email && (
                                 <div className="flex items-center gap-1">
                                   <Mail className="h-3 w-3 flex-shrink-0" />
@@ -308,6 +299,12 @@ export default function NavigationPage({ websites }: Props) {
                                   <span>{site.contact.telegram}</span>
                                 </div>
                               )}
+                              {site.tags.length > 0 && (
+                                <Badge variant="secondary" className="text-xs">
+                                  <Tag className="h-3 w-3 mr-1" />
+                                  {site.tags[0]}
+                                </Badge>
+                              )}
                               {site.screenshot && (
                                 <div
                                   className="flex items-center gap-1 cursor-pointer hover:text-primary transition-colors relative"
@@ -315,9 +312,17 @@ export default function NavigationPage({ websites }: Props) {
                                   onMouseLeave={() => setHoveredScreenshot(null)}
                                 >
                                   <ImageIcon className="h-3 w-3 flex-shrink-0" />
-                                  <span>截图</span>
+                                  {/* <span>截图</span> */}
                                 </div>
                               )}
+                              <Button
+                                variant="ghost"
+                                size="icon"
+                                className="h-7 w-7 rounded-full bg-background/80 hover:bg-primary hover:text-primary-foreground backdrop-blur-sm"
+                                onClick={() => setSelectedSite(site)}
+                              >
+                                <Info className="h-4 w-4" />
+                              </Button>
                             </div>
 
                             <div className="text-xs text-muted-foreground">最近活跃: {site.lastActive}</div>
@@ -332,7 +337,19 @@ export default function NavigationPage({ websites }: Props) {
                                 官网地址
                                 <ExternalLink className="h-3 w-3 ml-2" />
                               </a> */}
-                              <AirportLink url={site.url} title={"进入机场官网"} />
+                              { 
+                                 site.category === 'find-airports'
+                                  ? (
+                                      <a href={site.url} target="_blank" rel="noopener noreferrer">
+                                        官网地址
+                                        <ExternalLink className="h-3 w-3 ml-2" />
+                                      </a>
+                                    )
+                                  : (
+                                      <AirportLink url={site.url} title="进入机场官网" />
+                                    )
+                              }
+                              
                             </Button>
                           </div>
                         </CardContent>

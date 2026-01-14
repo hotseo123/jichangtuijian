@@ -1,26 +1,11 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @media (prefers-color-scheme: light) {
-      .background { fill: black; }
-      .foreground { fill: white; }
-    }
-    @media (prefers-color-scheme: dark) {
-      .background { fill: white; }
-      .foreground { fill: black; }
-    }
-  </style>
-  <g clip-path="url(#clip0_7960_43945)">
-    <rect class="background" width="180" height="180" rx="37" />
-    <g style="transform: scale(95%); transform-origin: center">
-      <path class="foreground"
-        d="M101.141 53H136.632C151.023 53 162.689 64.6662 162.689 79.0573V112.904H148.112V79.0573C148.112 78.7105 148.098 78.3662 148.072 78.0251L112.581 112.898C112.701 112.902 112.821 112.904 112.941 112.904H148.112V126.672H112.941C98.5504 126.672 86.5638 114.891 86.5638 100.5V66.7434H101.141V100.5C101.141 101.15 101.191 101.792 101.289 102.422L137.56 66.7816C137.255 66.7563 136.945 66.7434 136.632 66.7434H101.141V53Z" />
-      <path class="foreground"
-        d="M65.2926 124.136L14 66.7372H34.6355L64.7495 100.436V66.7372H80.1365V118.47C80.1365 126.278 70.4953 129.958 65.2926 124.136Z" />
-    </g>
-  </g>
-  <defs>
-    <clipPath id="clip0_7960_43945">
-      <rect width="180" height="180" fill="white" />
-    </clipPath>
-  </defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+<path d="M0,0 L5,0 L4,13 L-3,55 L-5,60 L-11,59 L-26,53 L-34,61 L-36,64 L-41,64 L-42,46 L-59,39 L-59,34 L-34,20 L-17,10 Z M-3,8 L-27,22 L-49,35 L-50,37 L-42,40 L-37,39 L-18,25 L-9,19 L-25,45 L-25,47 L-9,53 L-6,40 L-1,8 Z " fill="#303030" transform="translate(59,0)"/>
+<path d="M0,0 L1,0 L1,12 L4,12 L2,29 L1,34 L0,34 L0,27 L1,23 L-3,24 L-2,12 Z " fill="#595959" transform="translate(56,15)"/>
+<path d="M0,0 L2,0 L2,7 L5,8 L4,18 L1,21 L-1,21 Z " fill="#454545" transform="translate(57,7)"/>
+<path d="M0,0 L3,1 L3,13 L0,16 L-2,14 L-1,2 Z " fill="#212121" transform="translate(54,37)"/>
+<path d="M0,0 L1,0 L1,13 L0,18 L-1,18 L-1,11 L0,7 L-3,6 L-2,2 Z " fill="#404040" transform="translate(57,31)"/>
+<path d="M0,0 L1,0 L1,7 L-3,8 L-3,2 Z " fill="#222222" transform="translate(59,20)"/>
+<path d="M0,0 L1,0 L1,7 L-1,9 L-3,7 L-3,2 Z " fill="#232323" transform="translate(61,8)"/>
+<path d="M0,0 L2,1 L-2,7 L-3,5 L-5,4 Z " fill="#686868" transform="translate(49,18)"/>
 </svg>
