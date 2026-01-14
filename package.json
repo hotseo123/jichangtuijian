@@ -6,7 +6,8 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
-    "start": "next start"
+    "start": "next start",
+    "export": "BUILD_MODE=export NODE_ENV=production next build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
