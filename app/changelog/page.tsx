@@ -5,29 +5,51 @@ import { Navigation } from "@/components/navigation"
 
 const changelog = [
   {
-    version: "1.2.0",
-    date: "2025-01-13",
+    version: "2.1.0",
+    date: "2025-01-14",
     changes: [
-      { type: "feature", text: "添加优秀网站合集页面，按主题分类展示精选资源" },
-      { type: "feature", text: "新增顶部导航菜单，方便页面间快速切换" },
-      { type: "improvement", text: "优化搜索功能，支持模糊匹配资源名称和描述" },
+      { type: "feature", text: "新增机场FAQ模块，解答机场、VPN、客户端等常见问题" },
+      { type: "feature", text: "添加机场客户端下载指南，支持多平台客户端推荐" },
+      { type: "improvement", text: "优化机场推荐页面SEO，增强搜索引擎友好度" },
+      { type: "improvement", text: "完善机场详情展示，新增优惠码、截图预览等功能" },
     ],
   },
   {
-    version: "1.1.0",
+    version: "2.0.0",
+    date: "2025-01-13",
+    changes: [
+      { type: "feature", text: "重构机场推荐系统，采用JSON数据驱动" },
+      { type: "feature", text: "新增机场状态监控（正常/不稳定/失联）" },
+      { type: "feature", text: "添加优惠码折扣显示功能，支持悬浮查看详情" },
+      { type: "feature", text: "实现机场标签分类，方便快速筛选" },
+      { type: "improvement", text: "优化移动端体验，适配小屏幕设备" },
+    ],
+  },
+  {
+    version: "1.5.0",
     date: "2025-01-10",
     changes: [
-      { type: "feature", text: "添加精选标签功能，标记最受欢迎的资源" },
-      { type: "feature", text: "新增分类筛选按钮，快速定位所需类别" },
-      { type: "improvement", text: "改进卡片悬停效果，提升交互体验" },
+      { type: "feature", text: "新增机场联系方式展示（邮箱、Telegram）" },
+      { type: "feature", text: "添加机场最近活跃时间跟踪" },
+      { type: "feature", text: "实现机场截图预览功能" },
+      { type: "improvement", text: "优化卡片布局，支持每行显示6个站点" },
+    ],
+  },
+  {
+    version: "1.2.0",
+    date: "2025-01-05",
+    changes: [
+      { type: "feature", text: "添加机场合集页面，按主题分类展示精选机场" },
+      { type: "feature", text: "新增顶部导航菜单，包含首页、推荐、日志、关于" },
+      { type: "improvement", text: "优化搜索功能，支持机场名称、描述、标签搜索" },
     ],
   },
   {
     version: "1.0.0",
     date: "2025-01-01",
     changes: [
-      { type: "feature", text: "网站正式上线，提供 50+ 优质网站导航" },
-      { type: "feature", text: "实现实时搜索功能" },
+      { type: "feature", text: "网站正式上线，提供优质机场导航服务" },
+      { type: "feature", text: "实现机场分类筛选功能" },
       { type: "feature", text: "支持响应式布局，完美适配各种设备" },
     ],
   },

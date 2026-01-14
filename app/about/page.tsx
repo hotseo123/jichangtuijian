@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Info, Heart, Mail, Github } from "lucide-react"
+import { Info, Heart, Shield, Zap, Globe, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 
@@ -15,8 +15,8 @@ export default function AboutPage() {
             <div className="inline-flex items-center justify-center p-2 bg-primary/10 rounded-full mb-4">
               <Info className="h-8 w-8 text-primary" />
             </div>
-            <h1 className="text-4xl font-bold text-foreground mb-4">靠谱机场导航</h1>
-            <p className="text-lg text-muted-foreground text-balance">机场推荐与优惠码一站式整理</p>
+            <h1 className="text-4xl font-bold text-foreground mb-4">关于机场导航</h1>
+            <p className="text-lg text-muted-foreground text-balance">专业的机场推荐与优惠信息聚合平台</p>
           </div>
 
           <div className="space-y-6">
@@ -29,55 +29,63 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent className="text-muted-foreground leading-relaxed space-y-4">
                 <p>
-                  在信息爆炸的时代，我们每天都会接触到大量的网站和在线工具。WebNav
-                  的诞生，就是为了帮助大家快速找到真正优质、实用的网络资源。
+                  在互联网全球化的今天，访问国际网络资源已经成为学习、工作和生活中的刚需。然而，市面上机场服务质量参差不齐，价格不透明，用户很难找到真正稳定、安全、性价比高的服务。
                 </p>
                 <p>
-                  我们精心筛选每一个收录的网站，确保它们在各自领域都具有代表性和实用价值。无论你是设计师、开发者，还是普通用户，都能在这里找到适合自己的工具。
+                  本站致力于为用户提供客观、详实的机场评测与推荐信息。我们持续跟踪各大机场的服务质量、价格变动、优惠活动，并汇总最新的优惠码信息，帮助用户做出明智的选择。
                 </p>
+                <p>我们不收取任何推广费用，所有推荐均基于实际测试和用户反馈，确保信息的真实性和可靠性。</p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle>特色功能</CardTitle>
+                <CardTitle>核心功能</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-3">
+                <ul className="space-y-4">
                   <li className="flex items-start gap-3">
-                    <Badge variant="secondary" className="mt-0.5">
-                      01
-                    </Badge>
+                    <div className="flex items-center justify-center h-8 w-8 rounded-full bg-primary/10 flex-shrink-0">
+                      <Shield className="h-4 w-4 text-primary" />
+                    </div>
                     <div className="flex-1">
-                      <div className="font-medium text-foreground">智能搜索</div>
-                      <div className="text-sm text-muted-foreground">支持实时搜索，快速定位你需要的资源</div>
+                      <div className="font-medium text-foreground mb-1">机场状态监控</div>
+                      <div className="text-sm text-muted-foreground">
+                        实时跟踪机场运行状态，标记正常、不稳定、失联等状态，帮助用户避开问题服务
+                      </div>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Badge variant="secondary" className="mt-0.5">
-                      02
-                    </Badge>
+                    <div className="flex items-center justify-center h-8 w-8 rounded-full bg-primary/10 flex-shrink-0">
+                      <Zap className="h-4 w-4 text-primary" />
+                    </div>
                     <div className="flex-1">
-                      <div className="font-medium text-foreground">分类浏览</div>
-                      <div className="text-sm text-muted-foreground">按类别组织，让查找更有针对性</div>
+                      <div className="font-medium text-foreground mb-1">优惠码聚合</div>
+                      <div className="text-sm text-muted-foreground">
+                        收集整理各大机场的最新优惠码和折扣信息，让用户以更优惠的价格享受服务
+                      </div>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Badge variant="secondary" className="mt-0.5">
-                      03
-                    </Badge>
+                    <div className="flex items-center justify-center h-8 w-8 rounded-full bg-primary/10 flex-shrink-0">
+                      <Globe className="h-4 w-4 text-primary" />
+                    </div>
                     <div className="flex-1">
-                      <div className="font-medium text-foreground">精选推荐</div>
-                      <div className="text-sm text-muted-foreground">标记最受欢迎的资源，节省你的时间</div>
+                      <div className="font-medium text-foreground mb-1">客户端下载指南</div>
+                      <div className="text-sm text-muted-foreground">
+                        提供全平台客户端下载链接和使用教程，支持Windows、macOS、iOS、Android等
+                      </div>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Badge variant="secondary" className="mt-0.5">
-                      04
-                    </Badge>
+                    <div className="flex items-center justify-center h-8 w-8 rounded-full bg-primary/10 flex-shrink-0">
+                      <Info className="h-4 w-4 text-primary" />
+                    </div>
                     <div className="flex-1">
-                      <div className="font-medium text-foreground">主题合集</div>
-                      <div className="text-sm text-muted-foreground">按主题整理的网站集合，一站式解决方案</div>
+                      <div className="font-medium text-foreground mb-1">详细机场信息</div>
+                      <div className="text-sm text-muted-foreground">
+                        展示机场截图、联系方式、活跃时间、用户评价等全方位信息
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -86,38 +94,83 @@ export default function AboutPage() {
 
             <Card>
               <CardHeader>
-                <CardTitle>技术栈</CardTitle>
-                <CardDescription>使用现代化的技术构建</CardDescription>
+                <CardTitle>网站特色</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  <Badge>Next.js 16</Badge>
-                  <Badge>React 19</Badge>
-                  <Badge>Tailwind CSS</Badge>
-                  <Badge>TypeScript</Badge>
-                  <Badge>shadcn/ui</Badge>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="p-4 border rounded-lg">
+                    <div className="font-medium text-foreground mb-2">🔍 智能搜索</div>
+                    <div className="text-sm text-muted-foreground">支持机场名称、描述、标签多维度搜索</div>
+                  </div>
+                  <div className="p-4 border rounded-lg">
+                    <div className="font-medium text-foreground mb-2">🏷️ 标签分类</div>
+                    <div className="text-sm text-muted-foreground">通过标签快速筛选高速、稳定、性价比机场</div>
+                  </div>
+                  <div className="p-4 border rounded-lg">
+                    <div className="font-medium text-foreground mb-2">📊 状态监控</div>
+                    <div className="text-sm text-muted-foreground">实时监控机场可用性，及时更新状态信息</div>
+                  </div>
+                  <div className="p-4 border rounded-lg">
+                    <div className="font-medium text-foreground mb-2">💰 优惠聚合</div>
+                    <div className="text-sm text-muted-foreground">汇总所有优惠码，帮助用户节省开支</div>
+                  </div>
+                  <div className="p-4 border rounded-lg">
+                    <div className="font-medium text-foreground mb-2">📱 移动优化</div>
+                    <div className="text-sm text-muted-foreground">完美适配手机端，随时随地查看信息</div>
+                  </div>
+                  <div className="p-4 border rounded-lg">
+                    <div className="font-medium text-foreground mb-2">❓ FAQ问答</div>
+                    <div className="text-sm text-muted-foreground">详细的常见问题解答和使用教程</div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle>联系方式</CardTitle>
-                <CardDescription>欢迎反馈建议或推荐优质网站</CardDescription>
+                <CardTitle>技术栈</CardTitle>
+                <CardDescription>使用现代化技术构建的高性能网站</CardDescription>
               </CardHeader>
-              <CardContent className="flex gap-3">
-                <Button variant="outline" size="sm" asChild>
-                  <a href="mailto:contact@example.com">
-                    <Mail className="h-4 w-4 mr-2" />
-                    邮件联系
-                  </a>
-                </Button>
-                <Button variant="outline" size="sm" asChild>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                    <Github className="h-4 w-4 mr-2" />
-                    GitHub
-                  </a>
-                </Button>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  <Badge>Next.js 16</Badge>
+                  <Badge>React 19</Badge>
+                  <Badge>TypeScript</Badge>
+                  <Badge>Tailwind CSS v4</Badge>
+                  <Badge>shadcn/ui</Badge>
+                  <Badge>Server Components</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle>联系我们</CardTitle>
+                <CardDescription>如有机场推荐、问题反馈或合作意向，欢迎联系</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Button variant="outline" size="sm" asChild className="flex-1 bg-transparent">
+                    <a href="mailto:contact@example.com">
+                      <Mail className="h-4 w-4 mr-2" />
+                      邮件联系
+                    </a>
+                  </Button>
+                  <Button variant="outline" size="sm" asChild className="flex-1 bg-transparent">
+                    <a href="https://t.me/example" target="_blank" rel="noopener noreferrer">
+                      <svg className="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.692-1.653-1.123-2.678-1.799-1.185-.781-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.062 3.345-.479.329-.913.489-1.302.481-.428-.008-1.252-.241-1.865-.44-.752-.244-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.831-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635.099-.002.321.023.465.141.121.098.155.23.171.324.016.094.036.308.02.475z" />
+                      </svg>
+                      Telegram频道
+                    </a>
+                  </Button>
+                </div>
+                <div className="p-4 bg-muted/50 rounded-lg">
+                  <p className="text-sm text-muted-foreground">
+                    <strong className="text-foreground">免责声明：</strong>
+                    本站仅提供机场信息聚合服务，不提供任何代理服务。所有机场信息来源于公开渠道，用户需自行判断服务质量。请遵守当地法律法规，合理使用网络服务。
+                  </p>
+                </div>
               </CardContent>
             </Card>
           </div>
