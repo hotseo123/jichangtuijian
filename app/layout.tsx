@@ -7,6 +7,8 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
+const updatedAt = '2026-01-15T12:00:00.000Z' // 替换为你的实际更新时间
+
 export const metadata: Metadata = {
   title: "靠谱机场导航｜机场推荐与优惠码一站式整理",
   description:
@@ -27,6 +29,10 @@ export const metadata: Metadata = {
     title: "靠谱机场导航｜机场推荐与优惠码一站式整理",
     description: "整理长期稳定的靠谱机场推荐，汇总最新机场优惠码与套餐信息，支持 Clash、V2Ray、Shadowrocket 等客户端，提供真实使用体验与对比参考，一站式选机场更省心。",
     siteName: "靠谱机场导航",
+    modifiedTime: updatedAt,
+  },
+  other: {
+      'article:modified_time': updatedAt, // ✅ 供搜索引擎识别
   },
   twitter: {
     card: "summary_large_image",
