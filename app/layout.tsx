@@ -34,6 +34,12 @@ export const metadata: Metadata = {
   other: {
       'article:modified_time': updatedAt, // ✅ 供搜索引擎识别
   },
+  verification: {
+    google: 'RSlq-ECeK-cDJAwCN5vJdDsuMncstPqbo704wASYcko', 
+    other: {
+      'msvalidate.01': '0630F0ACCA6AE5531B0AF6AC3AC0FCFB',
+    },
+  },
   twitter: {
     card: "summary_large_image",
     title: "靠谱机场导航",
