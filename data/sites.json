@@ -292,6 +292,29 @@
             "featured": false
         },
         {
+            "id": "died-airports",
+            "name": "跑路机场公示看板",
+            "description": "机场官网打不开，节点飘红，TG群无法反馈问题",
+            "icon": "/logo/github.png",
+            "url": "https://github.com/limbopro/Paolujichang/issues",
+            "category": "find-airports",
+            "tags": [
+                "跑路机场公示"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01-14",
+            "featured": false
+        },
+        {
             "id": "jichangnav",
             "name": "机场导航梯子导航 ",
             "description": "一个专门整理科学上网机场的推荐平台",
