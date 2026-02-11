@@ -86,10 +86,10 @@
                 "便宜",
                 "新手友好"
             ],
-            "promoCode": "",
-            "discount": "",
-            "promoDescription": "",
-            "promoExpiry": "",
+            "promoCode": "clashx.cc",
+            "discount": "10% OFF",
+            "promoDescription": "全场9折",
+            "promoExpiry": "长期有效",
             "status": "normal",
             "contact": {
                 "email": "",
@@ -366,6 +366,29 @@
             "description": "提供Clash & ClashX 详细使用教程",
             "icon": "/logo/clashx.webp",
             "url": "https:/clashx.cc/",
+            "category": "find-airports",
+            "tags": [
+                "机场推荐"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01-14",
+            "featured": false
+        },
+        {
+            "id": "2026jichangtuijian",
+            "name": "2026机场推荐",
+            "description": "2026老牌稳定机场推荐",
+            "icon": "",
+            "url": "https://sites.google.com/view/2026jichangtuijian/home",
             "category": "find-airports",
             "tags": [
                 "机场推荐"
