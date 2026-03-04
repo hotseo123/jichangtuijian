@@ -82,7 +82,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <script defer src="https://s.staggeringbeauty.io/script.js" dataWebsiteId="4c9d6b9c-cd91-4e53-ab00-c2adf62f9c25"></script>
+      <script defer src="https://s.staggeringbeauty.io/script.js" data-website-id="4c9d6b9c-cd91-4e53-ab00-c2adf62f9c25"></script>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
