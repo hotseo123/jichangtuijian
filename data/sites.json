@@ -5,7 +5,7 @@
             "name": "一枝红杏加速器",
             "description": "运营超过10年的老牌机场，专线节点多，稳定性和口碑都很强",
             "icon": "/logo/yizhihongxing.png",
-            "url": "https://order.yizhihongxing.club/aff.php?aff=17788",
+            "url": "https://go2lk.pages.dev/cuakh4",
             "category": "kaopu-airports",
             "tags": [
                 "Shadowsocks",
@@ -30,7 +30,7 @@
             "name": "奈云机场",
             "description": "节点覆盖广，支持多协议，解锁流媒体表现不错",
             "icon": "",
-            "url": "https://www.v2ny.me/?path=register&code=RRJkLoeU",
+            "url": "https://go2lk.pages.dev/dq27tj",
             "category": "kaopu-airports",
             "tags": [
                 "V2Ray",
@@ -80,7 +80,7 @@
             "name": "肥猫云机场",
             "description": "性价比路线为主，适合日常浏览和轻度流媒体需求",
             "icon": "",
-            "url": "https://jacszing.fcvipaff.cc/register?aff=q0NtEJIF",
+            "url": "https://go2lk.pages.dev/um2wxw",
             "category": "kaopu-airports",
             "tags": [
                 "便宜",
@@ -104,7 +104,7 @@
             "name": "雪橇云机场",
             "description": "主打稳定高速线路，适合长时间使用和办公场景",
             "icon": "",
-            "url": "https://net.sled.lol/#/register?code=TkO6RxBp",
+            "url": "https://go2lk.pages.dev/s9u7kg",
             "category": "kaopu-airports",
             "tags": [
                 "稳定",
@@ -128,7 +128,7 @@
             "name": "红杏云机场",
             "description": "节点质量均衡，价格区间友好，适合入门和长期用户",
             "icon": "",
-            "url": "https://hongxingyun.club/web/#/login?code=QhIuhCJV",
+            "url": "https://go2lk.pages.dev/xmjwtx",
             "category": "kaopu-airports",
             "tags": [
                 "入门友好",
@@ -152,7 +152,7 @@
             "name": "WgetCloud机场",
             "description": "老牌高端机场，IEPL 专线，延迟和稳定性表现突出",
             "icon": "",
-            "url": "https://invite.wgetcloud.ltd/auth/register?code=PY1wlV",
+            "url": "https://go2lk.pages.dev/p6d3uc",
             "category": "kaopu-airports",
             "tags": [
                 "IEPL",
@@ -176,7 +176,7 @@
             "name": "大米机场",
             "description": "价格实惠，线路简单，适合备用或轻度用户",
             "icon": "",
-            "url": "https://happy.bigmess.org/user#/register?code=DhAZ9Ytd",
+            "url": "https://go2lk.pages.dev/kfhpxe",
             "category": "cheap-airports",
             "tags": [
                 "便宜",
@@ -200,7 +200,7 @@
             "name": "蓝帆云机场",
             "description": "主打稳定性和性价比，节点覆盖亚洲与美区",
             "icon": "",
-            "url": "https://p.lanfan.me/auth/register?code=yk3V",
+            "url": "https://go2lk.pages.dev/6t7yf3",
             "category": "kaopu-airports",
             "tags": [
                 "性价比",
@@ -224,7 +224,7 @@
             "name": "赔钱机场",
             "description": "低价流量机场，适合测试、临时使用或备用",
             "icon": "",
-            "url": "https://赔钱.com/#/register?code=RJXPmRBE",
+            "url": "https://go2lk.pages.dev/53mwny",
             "category": "cheap-airports",
             "tags": [
                 "低价",
@@ -269,13 +269,36 @@
         },
         {
             "id": "airports-recommend",
-            "name": "2026优质稳定机场推荐",
+            "name": "2026稳定机场推荐",
             "description": "推荐真正长期稳定、实际可用的机场",
             "icon": "/logo/github.png",
             "url": "https://github.com/hotseo123/shida-jichang-tuijian",
             "category": "find-airports",
             "tags": [
                 "Github",
+                "机场推荐"
+            ],
+            "promoCode": "",
+            "discount": "",
+            "promoDescription": "",
+            "promoExpiry": "",
+            "status": "normal",
+            "contact": {
+                "email": "",
+                "telegram": ""
+            },
+            "screenshot": "",
+            "lastActive": "2026-01-14",
+            "featured": false
+        },
+        {
+            "id": "shida-airports-recommend",
+            "name": "十大机场推荐",
+            "description": "十大稳定机场推荐",
+            "icon": "/logo/github.png",
+            "url": "https://shidajichang.org/",
+            "category": "find-airports",
+            "tags": [
                 "机场推荐"
             ],
             "promoCode": "",
